@@ -30,7 +30,7 @@ git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork 
 
 ![Commit işlemi](https://cdn.discordapp.com/attachments/1103629924549541930/1269649148294987807/commit.png?ex=66b0d469&is=66af82e9&hm=ee90ad97cec55b2cbf30980f08f0c7dc64baa0a6ac84343f709a810165f34630&)
 
-- Push işlemi (Commit edilmiş değişiklikleri depoya gönderme):
+- <ins>**Push işlemi**</ins> (Commit edilmiş değişiklikleri depoya gönderme):
 
 ![Push işlemi](https://cdn.discordapp.com/attachments/1103629924549541930/1269649780418543668/commit2.png?ex=66b0d500&is=66af8380&hm=ac31545676c1d1507ec639748b1ceac9fc0ce2121a8b24c370c53e13b5021a34&)
 
