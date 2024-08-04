@@ -34,7 +34,7 @@ git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork 
 
 ![Push işlemi](https://cdn.discordapp.com/attachments/1103629924549541930/1269649780418543668/commit2.png?ex=66b0d500&is=66af8380&hm=ac31545676c1d1507ec639748b1ceac9fc0ce2121a8b24c370c53e13b5021a34&)
 
-- [Ana proje](https://github.com/meto1558/basic-base) üzerinden "Pull requets" sekmesine tıklayın.
+- Push işleminiz başarılı bir şekilde gerçekleştiyse, [ana proje](https://github.com/meto1558/basic-base) üzerinden "Pull requets" sekmesine tıklayın.
 - Çıkan ekranda "New pull request" butonuna tıklayın.
 - "compare across forks" metnine tıklayın.
 
