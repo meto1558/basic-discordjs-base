@@ -40,7 +40,7 @@ git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork 
 
 ![Forks](https://cdn.discordapp.com/attachments/1103629924549541930/1269632021316243456/pr2.png?ex=66b0c476&is=66af72f6&hm=ffff7b0d28f344e1e8bd214ea19c96302348ba71fb7d3a3f1c951590d35b6013&)
 
-- **head repository** seçeneğini Fork ettiğiniz depo olarak belirleyin. (kullancı_adınız/basic-base)
+- **head repository** seçeneğini Fork ettiğiniz depo olarak belirleyin. (kullancı_adınız/basic-discordjs-base)
 
 ![Forks2](https://cdn.discordapp.com/attachments/1103629924549541930/1269651000524931133/pr.png?ex=66b0d623&is=66af84a3&hm=c65d043d17e911b2ad3a8ae57db6b295f0a713fe1d4210257ed57feaef50b5cb&)
 
