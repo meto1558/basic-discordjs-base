@@ -2,9 +2,11 @@
 Bu repo'da Discord.js hakkında basit komutlar, otomasyonlar vb. şeyler yazıyorum.
 (Python ve Java/Kotlin ile ilgili alt yapılarda hazırlayacağım, ilgileniyorsanız bakabilirsiniz.)
 Projeyi kullanmak veya katkıda bulunmak için **Visual Studio Code** öneriyorum. [Buradan](https://code.visualstudio.com/download) indirebilirsiniz.
-Ayrıca projeyi beğendiyseniz starlamayı unutmayın! İyi kullanımlar. **(NOT: Bu proje temel JavaScript bilgisi olan kişiler için uygundur, projeyi kullanmak veya katkıda bulunmak istiyorsanız JavaScript programlama dilini ve Node.js ortamında JavaScript kullanımını öğrenmeniz önerilir.)**
+Ayrıca projeyi beğendiyseniz starlamayı unutmayın! İyi kullanımlar. **(NOT: Bu proje temel JavaScript bilgisi olan kişiler için uygundur, projeye katkıda bulunmak istiyorsanız JavaScript'i ve Node.js ortamında JavaScript kullanımını temel seviye olarak öğrenmeniz önerilir.)**
 
-## Alt yapıyı nasıl kullanacağım?
+## Bu projeyi kullanarak kendi botumu yazabilir miyim?
+Tabii ki. Aşağı daki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
+
 - Node.js'i indirin ve kurun. (https://nodejs.org/en)
 - Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom)
 - Kaynak kodunu [buradan](https://github.com/meto1558/basic-discordjs-base/archive/refs/heads/main.zip) indirin.
