@@ -7,9 +7,9 @@ Ayrıca projeyi beğendiyseniz starlamayı unutmayın! Başarılar. **(NOT: Bu p
 ## Alt yapıyı nasıl kullanacağım?
 - Node.js'i indirin ve kurun. (https://nodejs.org/en)
 - Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom)
-- Kaynak kodunu [buradan](https://github.com/meto1558/basic-base/archive/refs/heads/main.zip) indirin.
+- Kaynak kodunu [buradan](https://github.com/meto1558/basic-discordjs-base/archive/refs/heads/main.zip) indirin.
 - app.js dosyasında gerekli değişiklikleri yapın. (Veya istediğiniz birşeyler ekleyin.)
 - ```node app.js``` yazarak botu çalıştırın.
 
 ## Projeye katkıda bulunabilir miyim?
-Elbette! Projeye katkıda bulunarak bu alt yapının daha efektif ve gelişmiş olmasına yardımcı olabilirsiniz. Projeye katkıda bulunma adımlarını öğrenmek için [bu belgeyi](https://github.com/meto1558/basic-base/blob/main/KATKIDA_BULUNMA.md) inceleyebilirsiniz.
+Elbette! Projeye katkıda bulunarak bu alt yapının daha efektif ve gelişmiş olmasına yardımcı olabilirsiniz. Projeye katkıda bulunma adımlarını öğrenmek için [bu belgeyi](https://github.com/meto1558/basic-discordjs-base/blob/main/KATKIDA_BULUNMA.md) inceleyebilirsiniz.
