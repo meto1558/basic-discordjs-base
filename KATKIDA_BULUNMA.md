@@ -21,12 +21,12 @@ git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork 
 
 ![Projeyi açmak](https://cdn.discordapp.com/attachments/1103629924549541930/1269612956908261386/proje.png?ex=66b0b2b5&is=66af6135&hm=81cfdfb5765bcf5c7e88d92e2a01c0d1f4e8be5b03cbaefdb2c708f07aece27a& "Projeyi açma")
 
-- Yaptğınız değişiklikleri **Visual Studio Code** üzerinden Fork ettiğiniz projeye Commit ve Push etmeniz gerekiyor.
-- Değiştirilmiş (M), İzlenmeyen [U (Genelde yeni eklenen dosyalarda görünür)] ve Silinmiş (D) dosyalar içinde resimdeki işlemi uygulayın (Eklemek istemediğiniz yeni (U) dosyaları seçmeyin):
+- Yaptğınız değişiklikleri **Visual Studio Code** üzerinden Fork ettiğiniz projeye Commit ve Push etmeniz gerekiyor, aşağıda ki adımları takip edebilirsiniz.
+- <ins>**Commit İşlemi 1. Adım**</ins> : Değiştirilmiş (M), İzlenmeyen [U (Genelde yeni eklenen dosyalarda görünür)] ve Silinmiş (D) dosyalar içinde resimdeki işlemi uygulayın (Eklemek istemediğiniz yeni (U) dosyaları seçmeyin):
 
 ![Değişiklik ekleme](https://cdn.discordapp.com/attachments/1103629924549541930/1269652990134980608/commit3.png?ex=66b0d7fd&is=66af867d&hm=60f47143533e1b6584f7238f5cce547c8817a5c3a9c86a2a91a6e7552c458b6b&)
 
-- Commit işlemi:
+- <ins>**Commit İşlemi 2. Adım**</ins>:
 
 ![Commit işlemi](https://cdn.discordapp.com/attachments/1103629924549541930/1269649148294987807/commit.png?ex=66b0d469&is=66af82e9&hm=ee90ad97cec55b2cbf30980f08f0c7dc64baa0a6ac84343f709a810165f34630&)
 
