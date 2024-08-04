@@ -5,7 +5,7 @@ Projeyi kullanmak veya katkıda bulunmak için **Visual Studio Code** öneriyoru
 Ayrıca projeyi beğendiyseniz starlamayı unutmayın! İyi kullanımlar. **(NOT: Bu proje temel JavaScript bilgisi olan kişiler için uygundur, projeye katkıda bulunmak istiyorsanız JavaScript'i ve Node.js ortamında JavaScript kullanımını temel seviye olarak öğrenmeniz önerilir.)**
 
 ## Bu projeyi kullanarak kendi botumu yazabilir miyim?
-Tabii ki. Aşağı daki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
+Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
 
 - Node.js'i indirin ve kurun. (https://nodejs.org/en)
 - Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom)
