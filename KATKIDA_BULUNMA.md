@@ -8,7 +8,7 @@ Bir projeye katkıda bulunmak oldukça basittir. İzlemeniz gereken adımlar:
 - Fork ettiğiniz proje kendi hesabınıza gelecektir, bu projeyi klonlayın. (Eğer bilgisayarınızda Git kurulu değilse, [indirin](https://git-scm.com/download/win) ve kurun.)
 
 ```bash
-git clone https://github.com/[kullanıcı_adınız]/basic-base # Fork ettiğiniz projenin URL'si
+git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork ettiğiniz projenin URL'si
 # Proje bulunduğunuz dizine klasör olarak klonlanır.
 ```
 
