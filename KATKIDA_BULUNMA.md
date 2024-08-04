@@ -5,9 +5,13 @@ Bir projeye katkıda bulunmak oldukça basittir. İzlemeniz gereken adımlar:
 
 ![Fork etmek](https://cdn.discordapp.com/attachments/1103629924549541930/1269609540920410132/fork.png?ex=66b0af86&is=66af5e06&hm=17b44e10486ee12b631d35fa77346e382f903316af5ae7a93095f3da320b0093& "Fork Etme")
 
-- Fork ettiğiniz proje kendi hesabınıza gelecektir, bu projeyi klonlayın. (Eğer bilgisayarınızda Git kurulu değilse, [indirin](https://git-scm.com/download/win) ve kurun.)
+- Fork ettiğiniz proje kendi hesabınıza gelecektir, bu projeyi klonlayın. (Eğer bilgisayarınızda Git kurulu değilse [indirin](https://git-scm.com/download/win) ve kurun.)
 
 ```bash
+# Klonlamadan önce, Git'i mevcut GitHub hesabınız ile eşleyin. (GitHub'a giriş yaptığınızdan emin olun.)
+git config --global user.name "kullanici_adiniz"
+git config --global user.email "mevcut_github_hesabinizin_maili"
+
 git clone https://github.com/[kullanıcı_adınız]/basic-discordjs-base # Fork ettiğiniz projenin URL'si
 # Proje bulunduğunuz dizine klasör olarak klonlanır.
 ```
