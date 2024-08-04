@@ -7,7 +7,7 @@ Ayrıca projeyi beğendiyseniz starlamayı unutmayın! Başarılar.
 ## Alt yapıyı nasıl kullanacağım?
 - Node.js'i indirin ve kurun. (https://nodejs.org/en)
 - Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom)
-- Kaynak kodunu [buradan](https://github.com/meto1558/basic-base/releases/) indirin.
+- Kaynak kodunu [buradan](https://github.com/meto1558/basic-base/archive/refs/heads/main.zip) indirin.
 - app.js dosyasında gerekli değişiklikleri yapın. (Veya istediğiniz birşeyler ekleyin.)
 - ```node app.js``` yazarak botu çalıştırın.
 
