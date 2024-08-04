@@ -28,5 +28,17 @@ git clone https://github.com/[kullanıcı_adınız]/basic-base # Fork ettiğiniz
 
 ![Push işlemi](https://cdn.discordapp.com/attachments/1103629924549541930/1269618661610623086/push.png?ex=66b0b805&is=66af6685&hm=de49ac4a8d9ef27c055187ea66fc37497eb54e8bce0a276927afdcd848d370b8&)
 
-- [Ana proje](https://github.com/meto1558/basic-base) üzerinden Pull requets sekmesine tıklayın.
-- Pull Request'iniz proje yetkilileri tarafından onaylandığı zaman projeye dahil edilecekir. İyi çalışmalar!
+- [Ana proje](https://github.com/meto1558/basic-base) üzerinden "Pull requets" sekmesine tıklayın.
+- Çıkan ekranda "New pull request" butonuna tıklayın.
+- "compare across forks" metnine tıklayın.
+
+![Forks](https://cdn.discordapp.com/attachments/1103629924549541930/1269632021316243456/pr2.png?ex=66b0c476&is=66af72f6&hm=ffff7b0d28f344e1e8bd214ea19c96302348ba71fb7d3a3f1c951590d35b6013&)
+
+- **head repository** seçeneğini Fork ettiğiniz depo olarak belirleyin. (kullancı_adınız/basic-base)
+
+![Forks2](https://cdn.discordapp.com/attachments/1103629924549541930/1269634675928727562/pr3.png?ex=66b0c6ef&is=66af756f&hm=a4532d1bdafb5d63212764e8301fb714d1017e8087c8cf01d5d78af24e16b016&)
+
+- Create pull request butonuna tıklayın.
+- Yaptığınız değişiklik(ler) için bir başlık ve detaylı bir açıklama girin.
+- Create pull request butonuna basın ve Pull request'i gönderin.
+- İşleminiz proje yöneticileri tarafından onaylandığı zaman projeye dahil edilecektir.
