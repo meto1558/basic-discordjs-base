@@ -14,4 +14,4 @@ Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğini
 - ```node app.js``` yazarak botu çalıştırın.
 
 ## Projeye katkıda bulunabilir miyim?
-Elbette! Projeye katkıda bulunarak bu alt yapının daha efektif ve gelişmiş olmasına yardımcı olabilirsiniz. Projeye katkıda bulunma adımlarını öğrenmek için [bu belgeyi](https://github.com/meto1558/basic-discordjs-base/blob/main/KATKIDA_BULUNMA.md) inceleyebilirsiniz.
+Elbette! Projeye katkıda bulunarak bu temelin daha efektif ve gelişmiş olmasına yardımcı olabilirsiniz. Projeye katkıda bulunma adımlarını öğrenmek için [bu belgeyi](https://github.com/meto1558/basic-discordjs-base/blob/main/KATKIDA_BULUNMA.md) inceleyebilirsiniz.
