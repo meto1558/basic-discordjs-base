@@ -8,7 +8,7 @@ Ayrıca projeyi beğendiyseniz starlamayı unutmayın! İyi kullanımlar. **(NOT
 Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
 
 - Node.js'i indirin ve kurun. (https://nodejs.org/en)
-- Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom)
+- Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom fs path)
 - Kaynak kodunu [buradan](https://github.com/meto1558/basic-discordjs-base/archive/refs/heads/main.zip) indirin.
 - app.js dosyasında gerekli değişiklikleri yapın. (Veya istediğiniz birşeyler ekleyin.)
 - ```node app.js``` yazarak botu çalıştırın.
