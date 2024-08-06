@@ -1,4 +1,6 @@
 const { Client, GatewayIntentBits, Message } = require("discord.js");
+const fs = require("fs");
+const path = require("path");
 require("dotenv").config();
 
 const client = new Client({
@@ -18,18 +20,19 @@ client.once("ready", () => {
     console.log(`${client.user.displayName} olarak giriş yapıldı.`);
 });
 
-/* Olaylar hakkında detaylı bilgiyi Discord.js v14 dökümanlarında bulabilirsiniz: https://discord.js.org/docs/packages/discord.js/14.15.3/Events:Enum
-* Message sınıfının özelliklerini Discord.js v14 dökümanlarında bulabilirsiniz: https://discord.js.org/docs/packages/discord.js/14.15.3/Message:Class
-*/
+client.on("messageCreate", async (message) => {
+    const PREFIX = "!"; // Bunu değiştirebilirsiniz
+    const commandsPath = path.join(__dirname, "./komutlar");
+    const commandFiles = fs.readdirSync(commandsPath).filter((files) => files.endsWith(".js"));
+    
+    for (const file of commandFiles) {
+        const commands = path.join(commandsPath, file);
+        const command = require(commands);
 
-/**
- * Prefix komutu ekleyici
- * @param {string} ad 
- * @param {(message: Message) => void} dinleyici 
- */
-function komutEkle(ad, dinleyici) {
-    client.on("messageCreate", dinleyici);
-}
+        if (message.content.startsWith(PREFIX + command.name)) 
+            command.execute(message);
+    }
+});
 
 // Discord'a bağlanma
 client.login(process.env.TOKEN); // TOKEN değerini .env dosyasında kendi botunuzun tokeni ile değişmeyi unutmayın.
