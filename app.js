@@ -1,10 +1,11 @@
-const { Client, GatewayIntentBits, Message } = require("discord.js");
+const { Client, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
 
 const client = new Client({
     intents: [
+        GatewayIntentBits.GuildVoiceStates,
         GatewayIntentBits.MessageContent,
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.GuildMembers,
@@ -13,8 +14,8 @@ const client = new Client({
 });
 
 /**
- * Daha fazla "ready" olayı hakkında bilgiyi ornekler/ready_examples.js'de bulabilirsiniz.
- * once, on, off fonksiyonunlarının ne işe yaradığını bilmiyorsanız, ornekler/event_handlers.js'e bakabilirsiniz.
+ * Daha fazla "ready" olayı hakkında bilgiyi ornekler/ready_ornekleri.js'de bulabilirsiniz.
+ * once, on, off fonksiyonunlarının ne işe yaradığını bilmiyorsanız, ornekler/olay_dinleyiciler.js'e bakabilirsiniz.
  */
 client.once("ready", () => {
     console.log(`${client.user.displayName} olarak giriş yapıldı.`);
@@ -34,5 +35,4 @@ client.on("messageCreate", async (message) => {
     }
 });
 
-// Discord'a bağlanma
 client.login(process.env.TOKEN); // TOKEN değerini .env dosyasında kendi botunuzun tokeni ile değişmeyi unutmayın.

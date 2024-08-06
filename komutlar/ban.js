@@ -24,6 +24,7 @@ module.exports = {
             }
     
             const sebep = getContentByIndex(message.content, 2) || "Belirtilmedi";
+            
             const embed = new EmbedBuilder()
                 .setTitle("Ban Uygulandı")
                 .setDescription(`${member} kullanıcısı sunucudan yasaklandı.`)

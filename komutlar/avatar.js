@@ -13,5 +13,5 @@ module.exports = {
             .setTitle("Avatar");
 
         await message.channel.send({embeds: [embed]});
-    },
+    }
 };

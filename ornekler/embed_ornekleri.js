@@ -9,18 +9,25 @@ const { EmbedBuilder } = require("discord.js");
 const embed = new EmbedBuilder()
     // Embed'in üst kısmında görünür
     .setAuthor({name: "Genelde kullanıcı adı girilir", iconURL: "Genelde kullanıcı avatarı URL'si girilir"})
-    // Embed'in başlığını belirler, author'un bir altında görünür, kalın ve büüyk yazı stilinde görünür, markdown kullanılamaz
+    
+    // Embed'in başlığını belirler, author'un bir altında görünür, kalın ve büyük yazı stilinde görünür, markdown kullanılamaz
     .setTitle("Başlık")
+
     // Başlığın altında bulunur, ince ve küçük yazı stilinde görünür, markdown kullanılabilir
     .setDescription("Açıklama")
+
     // Embed'in gönderildiği tarih formatlanmış bir şekilde aşağı kısımda görünür (Örn: " bugün 18:16 " gibi görünür)
     .setTimestamp(Date.now())
+
     // Girilen URL bir resim formatı içeriyorsa (örn: https://ornek.com/resim.png?size=512) Embed'in sağ üst köşesinde küçük bir resim olarak görünür
     .setThumbnail("url" /*Kullanacağınız değer zaten bir string döndürüyorsa iki tırnak kullanmanıza gerek yok*/)
+
     // Embed'in rengini belirler, sol tarafta bir çizgi şeklinde görünür
     .setColor("Aqua")
+
     // setTitle ile birlikte kullanıldığında başlığı tıklanabilir bir link metnine (link label) dönüştürür.
     .setURL("url")
+
     // Başlık ve açıklama dışında daha fazla veri eklemek için kullanılır
     .addFields(
         {name: "Başlık" /*setTitle gibi davranır, ancak daha küçük görünür*/, value: "Açıklama" /*setDescription gibi davranır*/},
