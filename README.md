@@ -14,11 +14,11 @@ Ana projeye ve proje kapmasına uygulayabileceğiniz şeyler:
 Bu yazılanlardan herhangi birini ana projeye ve proje kapmasına uygulamaktan çekinmeyin.
 
 Ana projeye ve proje kapmasına uygulayamayacağınız şeyler:
-- Projeyi kapalı kaynak olarak dağıtmak.
-- Değiştirilen kaynak kodu paylaşmamak (Ana projeye).
+- Projeden kod/kodlar alıp bu projeden alındığına dair ek bir bilgi paylaşmamak.
+- Projeden alınan kodu/kodları kapalı kaynaklı (hatta gizlenmiş) bir projede kullanmak.
 - GPL v3.0 lisans şartlarını ihlal eden dağıtımlar yapmak.
 
-Bu yazılanlardan herhangi birini uygulamanız takdirde yasal işlem başlatma hakkına sahibim, bunun bilincinde olarak projeyi özgürce kullanabilirsiniz. İyi çalışmalar.
+Bu kapsamları **gerçekten** kullanmak istiyorsanız uygulamanız/projeniz GPL altında lisanslanmalıdır. İyi çalışmalar.
 
 ## Bu projeyi kullanarak kendi botumu yazabilir miyim?
 Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
