@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits } = require("discord.js");
-const fs = require("fs");
-const path = require("path");
+const { registerEvents } = require("./handlers/event_handler");
+const { registerPrefixCommands } = require("./handlers/command_handler");
 require("dotenv").config();
 
 const client = new Client({
@@ -13,26 +13,14 @@ const client = new Client({
     ]
 });
 
-/**
- * Daha fazla "ready" olayı hakkında bilgiyi ornekler/ready_ornekleri.js'de bulabilirsiniz.
- * once, on, off fonksiyonunlarının ne işe yaradığını bilmiyorsanız, ornekler/olay_dinleyiciler.js'e bakabilirsiniz.
- */
-client.once("ready", () => {
-    console.log(`${client.user.displayName} olarak giriş yapıldı.`);
-});
+try {
+    registerEvents(client);
+    console.log("Olaylar yüklendi.");
+    registerPrefixCommands(client);
+    console.log("Prefix komutları yüklendi.");
+} catch (error) {
+    throw new Error(error);
+}
 
-client.on("messageCreate", async (message) => {
-    const PREFIX = "!"; // Bunu değiştirebilirsiniz
-    const commandsPath = path.join(__dirname, "./komutlar");
-    const commandFiles = fs.readdirSync(commandsPath).filter((files) => files.endsWith(".js"));
-    
-    for (const file of commandFiles) {
-        const commands = path.join(commandsPath, file);
-        const command = require(commands);
-
-        if (message.content.startsWith(PREFIX + command.name)) 
-            command.execute(message);
-    }
-});
 
 client.login(process.env.TOKEN); // TOKEN değerini .env dosyasında kendi botunuzun tokeni ile değişmeyi unutmayın.

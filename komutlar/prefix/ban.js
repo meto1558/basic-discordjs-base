@@ -1,5 +1,5 @@
 const { Message, EmbedBuilder, DiscordAPIError } = require("discord.js");
-const { getContentByIndex } = require("../yardimcilar/parametreSecici");
+const { getContentByIndex } = require("../../yardimcilar/parametreSecici");
 
 module.exports = {
     name: "ban",

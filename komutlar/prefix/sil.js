@@ -1,5 +1,5 @@
 const { Message } = require("discord.js");
-const { getParamByIndex } = require("../yardimcilar/parametreSecici");
+const { getParamByIndex } = require("../../yardimcilar/parametreSecici");
 
 module.exports = {
     name: "sil",
