@@ -4,6 +4,22 @@ Bu repo'da Discord.js hakkında basit komutlar, otomasyonlar vb. şeyler yazıyo
 Projeyi kullanmak veya katkıda bulunmak için **Visual Studio Code** öneriyorum. [Buradan](https://code.visualstudio.com/download) indirebilirsiniz.
 Ayrıca projeyi beğendiyseniz starlamayı unutmayın! İyi kullanımlar. **(NOT: Bu proje temel JavaScript bilgisi olan kişiler için uygundur, projeye katkıda bulunmak istiyorsanız JavaScript'i ve Node.js ortamında JavaScript kullanımını temel seviye olarak öğrenmeniz önerilir.)**
 
+Bu proje [GNU Genel Kamu Lisansı v3.0](https://www.gnu.org/licenses/gpl-3.0.html)'na tabidir. Ana proje dışında eklenen/kullanılan harici kodlar hakkında hiçbir hak elde etmiyorum ve bu zaten GPL lisansı dışındadır.
+
+Ana projeye ve proje kapmasına uygulayabileceğiniz şeyler:
+- Kullanmak (Fork ederek, Credit vererek kişisel veya ekip kullanımı için).
+- Modifiye etmek (katkıda bulunmak).
+- Paylaşmak.
+
+Bu yazılanlardan herhangi birini ana projeye ve proje kapmasına uygulamaktan çekinmeyin.
+
+Ana projeye ve proje kapmasına uygulayamayacağınız şeyler:
+- Projeden kod/kodlar alıp bu projeden alındığına dair ek bir bilgi paylaşmamak.
+- Projeden alınan kodu/kodları kapalı kaynaklı (hatta gizlenmiş) bir projede kullanmak.
+- GPL v3.0 lisans şartlarını ihlal eden dağıtımlar yapmak.
+
+Bu kapsamları **gerçekten** kullanmak istiyorsanız uygulamanız/projeniz GPL altında lisanslanmalıdır. İyi çalışmalar.
+
 ## Bu projeyi kullanarak kendi botumu yazabilir miyim?
 Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
 
