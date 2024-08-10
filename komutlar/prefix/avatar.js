@@ -2,6 +2,7 @@ const { Message, EmbedBuilder } = require("discord.js");
 
 module.exports = {
     name: "avatar",
+    aliases: ["pp"],
     /** @param {Message} message */
     async execute(message) {
         const member = message.mentions.members.first() || message.member; // Etiketlenen kullanıcı yoksa komutu yazan kişiyi döndür

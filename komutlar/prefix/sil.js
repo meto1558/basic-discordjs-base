@@ -3,6 +3,7 @@ const { getParamByIndex } = require("../../yardimcilar/parametreSecici");
 
 module.exports = {
     name: "sil",
+    aliases: ["temizle", "del"],
     /**@param {Message} message  */
     async execute(message) {
         const mesajSayisi = parseInt(getParamByIndex(message.content, 1));

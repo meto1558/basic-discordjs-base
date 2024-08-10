@@ -3,6 +3,7 @@ const { getContentByIndex } = require("../../yardimcilar/parametreSecici");
 
 module.exports = {
     name: "ban",
+    aliases: ["yasakla", "yasak"],
     /**@param {Message} message */
     async execute(message) {
         try {
