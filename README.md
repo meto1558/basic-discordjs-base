@@ -23,7 +23,7 @@ Bu kapsamları **gerçekten** kullanmak istiyorsanız uygulamanız/projeniz GPL 
 ## Bu projeyi kullanarak kendi botumu yazabilir miyim?
 Tabii ki. Aşağıdaki adımları takip ederek projeyi nasıl kullanabileceğinizi öğrenebilirsiniz.
 
-- Node.js'i indirin ve kurun. (https://nodejs.org/en)
+- Node.js'i indirin ve kurun. (https://nodejs.org/en) [Node.js kurulumundan sonra ki adımları anlamıyorsanız installer.bat ve run.bat dosyalarını kullanabilirsiniz.]
 - Gerekli paketleri kurun. (npm install discord.js dotenv pyrandom fs path)
 - Kaynak kodunu [buradan](https://github.com/meto1558/basic-discordjs-base/archive/refs/heads/main.zip) indirin.
 - app.js dosyasında gerekli değişiklikleri yapın. (Veya istediğiniz birşeyler ekleyin.)
