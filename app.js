@@ -13,6 +13,11 @@ const client = new Client({
     ]
 });
 
+if (process.env.TOKEN == "BOT_TOKEN") {
+    console.log("Lütfen .env'de TOKEN kısmını gerçek bot tokeniniz ile değiştirin.");
+    return;
+}
+
 try {
     registerEvents(client);
     console.log("Olaylar yüklendi.");
@@ -22,9 +27,6 @@ try {
     throw new Error(error);
 }
 
-if (process.env.TOKEN == "BOT_TOKEN") {
-    console.log("Lütfen .env'de TOKEN kısmını gerçek bot tokeniniz ile değiştirin.");
-    return;
-}
+
 
 client.login(process.env.TOKEN); // TOKEN değerini .env dosyasında kendi botunuzun tokeni ile değişmeyi unutmayın.
